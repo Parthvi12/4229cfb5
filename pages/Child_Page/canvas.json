@@ -1,0 +1,139 @@
+{
+  "unpublishedPage": {
+    "name": "Child_Page",
+    "slug": "child-page",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 1010,
+          "containerStyle": "none",
+          "snapRows": 101,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 57,
+          "minHeight": 1020,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "widgetName": "Input1",
+              "displayName": "Input",
+              "iconSVG": "/static/media/icon.9f505595.svg",
+              "topRow": 27,
+              "bottomRow": 31,
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "autoFocus": false,
+              "type": "INPUT_WIDGET_V2",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 11.9375,
+              "dynamicTriggerPathList": [],
+              "resetOnSubmit": true,
+              "leftColumn": 23,
+              "dynamicBindingPathList": [
+                {
+                  "key": "defaultText"
+                }
+              ],
+              "labelPosition": "Left",
+              "labelStyle": "",
+              "inputType": "TEXT",
+              "isDisabled": false,
+              "key": "yj98z1ho3t",
+              "isRequired": false,
+              "rightColumn": 43,
+              "widgetId": "cd75lothri",
+              "isVisible": true,
+              "label": "Label",
+              "version": 2,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "iconAlign": "left",
+              "defaultText": "{{JSObject1.myFun1()}}"
+            },
+            {
+              "widgetName": "Input2",
+              "displayName": "Input",
+              "iconSVG": "/static/media/icon.9f505595.svg",
+              "topRow": 47,
+              "bottomRow": 51,
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "autoFocus": false,
+              "type": "INPUT_WIDGET_V2",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 11.9375,
+              "dynamicTriggerPathList": [],
+              "resetOnSubmit": true,
+              "leftColumn": 23,
+              "dynamicBindingPathList": [
+                {
+                  "key": "defaultText"
+                }
+              ],
+              "labelPosition": "Left",
+              "labelStyle": "",
+              "inputType": "TEXT",
+              "isDisabled": false,
+              "key": "yj98z1ho3t",
+              "isRequired": false,
+              "rightColumn": 43,
+              "widgetId": "pwrx8ks4ke",
+              "isVisible": true,
+              "label": "Label",
+              "version": 2,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "iconAlign": "left",
+              "defaultText": "{{get_users.data[0].name}}"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "Child_Page_get_users",
+              "name": "get_users",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "widgetNames": [
+          "Input1",
+          "Input2",
+          "MainContainer"
+        ],
+        "validOnPageLoadActions": true,
+        "id": "Child_Page",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "policies": [],
+  "gitSyncId": "626bcad577fc9803d901da31_626bcaea77fc9803d901da4f"
+}
