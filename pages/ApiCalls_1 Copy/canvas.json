@@ -1,0 +1,147 @@
+{
+  "unpublishedPage": {
+    "name": "ApiCalls_1 Copy",
+    "slug": "apicalls-1-copy",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 1224,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 1010,
+          "containerStyle": "none",
+          "snapRows": 101,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 57,
+          "minHeight": 1020,
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "widgetName": "Input1",
+              "displayName": "Input",
+              "iconSVG": "/static/media/icon.9f505595.svg",
+              "topRow": 27,
+              "bottomRow": 31,
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "autoFocus": false,
+              "type": "INPUT_WIDGET_V2",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 11.9375,
+              "dynamicTriggerPathList": [],
+              "resetOnSubmit": true,
+              "leftColumn": 23,
+              "dynamicBindingPathList": [
+                {
+                  "key": "defaultText"
+                }
+              ],
+              "labelPosition": "Left",
+              "labelStyle": "",
+              "inputType": "TEXT",
+              "isDisabled": false,
+              "key": "ty1vf1sqic",
+              "isRequired": false,
+              "rightColumn": 43,
+              "widgetId": "xgv9z4gn85",
+              "isVisible": true,
+              "label": "Label",
+              "version": 2,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "iconAlign": "left",
+              "defaultText": "{{Api1.data.body.name}}"
+            },
+            {
+              "widgetName": "Input2",
+              "displayName": "Input",
+              "iconSVG": "/static/media/icon.9f505595.svg",
+              "topRow": 47,
+              "bottomRow": 51,
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "autoFocus": false,
+              "type": "INPUT_WIDGET_V2",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 11.9375,
+              "dynamicTriggerPathList": [],
+              "resetOnSubmit": true,
+              "leftColumn": 23,
+              "dynamicBindingPathList": [
+                {
+                  "key": "defaultText"
+                }
+              ],
+              "labelPosition": "Left",
+              "labelStyle": "",
+              "inputType": "TEXT",
+              "isDisabled": false,
+              "key": "ty1vf1sqic",
+              "isRequired": false,
+              "rightColumn": 43,
+              "widgetId": "9be0pbtfep",
+              "isVisible": true,
+              "label": "Label",
+              "version": 2,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "iconAlign": "left",
+              "defaultText": "{{get_data.data.headers.info}}"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "ApiCalls_1 Copy_Api1",
+              "name": "Api1",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "ApiCalls_1 Copy_get_data",
+              "name": "get_data",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
+        "widgetNames": [
+          "Input1",
+          "Input2",
+          "MainContainer"
+        ],
+        "validOnPageLoadActions": true,
+        "id": "ApiCalls_1 Copy",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": [],
+    "isHidden": false
+  },
+  "deleted": false,
+  "policies": [],
+  "gitSyncId": "626bca3e77fc9803d901da08_626bca9277fc9803d901da2a"
+}
